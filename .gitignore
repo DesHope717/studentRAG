@@ -30,3 +30,17 @@ models/
 # OS
 .DS_Store
 Thumbs.db
+
+# Vector databases (Chroma, FAISS, etc.)
+chroma_db*/
+chroma_db_*_pre/
+*.sqlite3
+*.bin
+*.pickle
+
+# Data files (PDFs, CSVs, etc. — unless tiny and essential)
+data/
+
+# Optional: if you use virtual env
+venv/
+.env/
